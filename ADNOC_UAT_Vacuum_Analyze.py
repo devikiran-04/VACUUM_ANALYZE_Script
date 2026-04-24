@@ -3,11 +3,11 @@ from psycopg2 import sql
 
 # Database connection parameters
 DB_CONFIG = {
-    'host': '10.160.196.60',
-    'database': 'adnoc_tnd',
-    'user': 'postgres',
-    'password': 'Fluent@123',
-    'port': '5432'
+    'host': 'your_host',        # e.g., 'localhost' or IP
+    'database': 'your_db',      # database name
+    'user': 'your_user',        # role / username
+    'password': 'your_password',
+    'port': '5432'              # default PostgreSQL port
 }
 
 
